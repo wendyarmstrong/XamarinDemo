@@ -13,7 +13,7 @@ namespace XamarinDemo.Droid
 		}
 		public SQLite.Net.SQLiteConnection GetConnection () {
 
-			var sqliteFilename = "ELMO.db3";
+			var sqliteFilename = "MyDataBase.db3";
 			string documentsPath = System.Environment.GetFolderPath (System.Environment.SpecialFolder.Personal); // Documents folder
 			var path = Path.Combine(documentsPath, sqliteFilename);
 
