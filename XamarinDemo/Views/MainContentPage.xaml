@@ -5,9 +5,9 @@
 
 		<StackLayout Padding="50,100,50,0">
 
-			<Label Text="Hello World"/>
+			<Label Text="Hello World" x:Name="MyLabel"/>
 
-			<Button Text="Press Me" Clicked="OnButtonClicked" x:Name="MyButton"/>
+			<Button Text="Press Me" Clicked="OnButtonClicked"/>
 
 		</StackLayout>
 

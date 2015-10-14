@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace XamarinDemo
 {
-	public class CustomButton
+	public class CustomButton : Button
 	{
 		public CustomButton ()
 		{

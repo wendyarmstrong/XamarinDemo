@@ -45,11 +45,11 @@ namespace XamarinDemo.ViewModel
 		{
 			if(messageText  == "Hello World MVVM")
 			{
-				#if __IOS__
-				MessageText = "Hoorah! Button Pressed for iOS! ";
-				#else
 				MessageText = "Hoorah! Button Pressed! ";
-				#endif
+			}
+			else
+			{
+				MessageText  = "Hello World MVVM";	
 			}
 		}
 

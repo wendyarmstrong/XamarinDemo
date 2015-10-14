@@ -14,7 +14,10 @@ namespace XamarinDemo
 
 		async void OnButtonClicked(object sender, EventArgs e)
 		{
-			MyButton.Text = "Button Was Pressed!";
+			if(MyLabel.Text == "Hello World")
+				MyLabel.Text = "Button Was Pressed!";
+			else
+				MyLabel.Text = "Hello World";
 		}
 	}
 }
